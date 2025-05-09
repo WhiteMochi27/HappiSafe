@@ -25,7 +25,7 @@ use Inertia\Inertia;
 
 // Public routes
 Route::get('/', function () {
-    return Inertia::render('Home');
+    return Inertia::render('Welcome');
 })->name('home');
 
 // Authentication protected routes
